@@ -1,0 +1,9 @@
+[elk:children]
+kibana
+elasticserver
+
+[kibana]
+localhost	ansible_host=127.0.0.1
+
+[elasticserver]
+localhost	ansible_host=127.0.0.1
